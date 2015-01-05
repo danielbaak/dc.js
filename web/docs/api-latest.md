@@ -122,7 +122,7 @@ chart.renderlet(function(chart){
 ```
 
 ## Filters
-The dc.js filters are functions which are passed into crossfilter to chose which records will be
+The dc.js filters are functions which are passed into crossfilter to choose which records will be
 accumulated to produce values for the charts.  In the crossfilter model, any filters applied on one
 dimension will affect all the other dimensions but not that one.  dc always applies a filter
 function to the dimension; the function combines multiple filters and if any of them accept a
